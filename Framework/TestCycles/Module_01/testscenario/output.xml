@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230904 13:11:53.747" rpa="false" schemaversion="4">
+<suite id="s1" name="Reg 02 testcase1" source="C:\Users\Nithin Sai-int-246\PycharmProjects\Robotframework\Framework\TestCycles\Module_01\testscenario\Reg_02_testcase1.robot">
+<test id="s1-t1" name="Test1" line="7">
+<kw name="Open Registration Page" library="ui_keywords2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230904 13:11:54.044" level="INFO">Opening browser 'ff' to base url 'https://nxtgenaiacademy.com/demo-site/'.</msg>
+<msg timestamp="20230904 13:11:54.056" level="INFO">Executing: C:\Users\Nithin Sai-int-246\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox --output json</msg>
+<status status="PASS" starttime="20230904 13:11:54.044" endtime="20230904 13:12:04.391"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230904 13:12:04.392" endtime="20230904 13:12:04.664"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230904 13:12:07.665" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230904 13:12:04.664" endtime="20230904 13:12:07.665"/>
+</kw>
+<status status="PASS" starttime="20230904 13:11:54.043" endtime="20230904 13:12:07.667"/>
+</kw>
+<kw name="Fill Registration Form" library="ui_keywords2">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Pfirstname}</arg>
+<arg>${Firstname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230904 13:12:07.669" level="INFO">Typing text 'Nithin' into text field '//input[@id="vfb-5"]'.</msg>
+<status status="PASS" starttime="20230904 13:12:07.668" endtime="20230904 13:12:07.743"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Plastname}</arg>
+<arg>${lastname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230904 13:12:07.745" level="INFO">Typing text 'Saikumar' into text field '//input[@id="vfb-7"]'.</msg>
+<status status="PASS" starttime="20230904 13:12:07.744" endtime="20230904 13:12:07.787"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>${Pgender}</arg>
+<arg>${male}</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20230904 13:12:07.789" level="INFO">Selecting 'Male' from radio button 'vfb-31'.</msg>
+<status status="PASS" starttime="20230904 13:12:07.788" endtime="20230904 13:12:08.022"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Pemail}</arg>
+<arg>${Email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230904 13:12:08.023" level="INFO">Typing text 'testing@gmail.com' into text field '//input[@type="email"]'.</msg>
+<status status="PASS" starttime="20230904 13:12:08.022" endtime="20230904 13:12:08.066"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${PNumberverfi}</arg>
+<arg>99</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230904 13:12:08.068" level="INFO">Typing text '99' into text field '//input[@name="vfb-3"]'.</msg>
+<status status="PASS" starttime="20230904 13:12:08.067" endtime="20230904 13:12:08.098"/>
+</kw>
+<status status="PASS" starttime="20230904 13:12:07.667" endtime="20230904 13:12:08.098"/>
+</kw>
+<kw name="Submit Registration Form" library="ui_keywords2">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Psubmit}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230904 13:12:08.100" level="INFO">Clicking element '//input[@name="vfb-submit"]'.</msg>
+<status status="PASS" starttime="20230904 13:12:08.099" endtime="20230904 13:12:09.864"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230904 13:12:14.866" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230904 13:12:09.865" endtime="20230904 13:12:14.866"/>
+</kw>
+<status status="PASS" starttime="20230904 13:12:08.099" endtime="20230904 13:12:14.867"/>
+</kw>
+<kw name="Verificationreg" library="ui_keywords2">
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${verfi}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20230904 13:12:14.901" level="INFO">Element '//div[@class="elementor-widget-container"]' is displayed.</msg>
+<status status="PASS" starttime="20230904 13:12:14.868" endtime="20230904 13:12:14.901"/>
+</kw>
+<status status="PASS" starttime="20230904 13:12:14.867" endtime="20230904 13:12:14.901"/>
+</kw>
+<status status="PASS" starttime="20230904 13:11:54.042" endtime="20230904 13:12:14.902"/>
+</test>
+<status status="PASS" starttime="20230904 13:11:53.752" endtime="20230904 13:12:14.904"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Reg 02 testcase1">Reg 02 testcase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

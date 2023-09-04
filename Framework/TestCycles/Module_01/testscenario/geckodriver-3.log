@@ -1,0 +1,15 @@
+1693813277462	geckodriver	INFO	Listening on 127.0.0.1:53934
+1693813280525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NITHIN~1\\AppData\\Local\\Temp\\rust_mozprofilesiGw5c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693813281063	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693813281367	Marionette	INFO	Listening on port 53943
+WebDriver BiDi listening on ws://127.0.0.1:53935
+Read port: 53943
+1693813281753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53935/devtools/browser/2b2da63d-9db0-4773-8a8f-b2316517050a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nxtgenaiacademy.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1693818811711	Marionette	INFO	Stopped listening on port 53943
+Dynamically enable window occlusion 1

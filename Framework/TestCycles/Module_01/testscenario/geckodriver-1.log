@@ -1,0 +1,21 @@
+1693812933952	geckodriver	INFO	Listening on 127.0.0.1:53634
+1693812937073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NITHIN~1\\AppData\\Local\\Temp\\rust_mozprofileWdiGWK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693812937463	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693812937651	Marionette	INFO	Listening on port 53644
+WebDriver BiDi listening on ws://127.0.0.1:53635
+Read port: 53644
+1693812937965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53635/devtools/browser/617f8ae7-b4ef-4fe0-b586-9e3dbc8d8e87
+JavaScript warning: https://nxtgenaiacademy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0, line 2: Script terminated by timeout at:
+F@https://nxtgenaiacademy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0:2:29696
+get@https://nxtgenaiacademy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0:2:30229
+dispatch@https://nxtgenaiacademy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0:2:39449
+add/v.handle@https://nxtgenaiacademy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0:2:37968
+
+1693813306673	Marionette	INFO	Stopped listening on port 53644
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))

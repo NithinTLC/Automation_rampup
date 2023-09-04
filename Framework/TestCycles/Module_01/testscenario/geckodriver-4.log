@@ -1,0 +1,17 @@
+1693813314296	geckodriver	INFO	Listening on 127.0.0.1:54010
+1693813317362	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NITHIN~1\\AppData\\Local\\Temp\\rust_mozprofileGMMNyY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693813317737	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693813317941	Marionette	INFO	Listening on port 54019
+WebDriver BiDi listening on ws://127.0.0.1:54011
+Read port: 54019
+1693813318247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54011/devtools/browser/bc65837c-982d-4625-a349-c15c3d0c50e1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nxtgenaiacademy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nxtgenaiacademy.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1693818811872	Marionette	INFO	Stopped listening on port 54019
+Dynamically enable window occlusion 1
