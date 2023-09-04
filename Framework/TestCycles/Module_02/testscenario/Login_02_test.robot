@@ -10,3 +10,4 @@ Test_Login2
     Enter the Password
     Click the submit Button
     ExcepVerificationlog
+    Close Browser

@@ -9,3 +9,4 @@ Test1
     Fill Registration Form
     Submit Registration Form
     Verificationreg
+    Close Browser

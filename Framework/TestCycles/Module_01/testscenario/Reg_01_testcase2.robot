@@ -10,3 +10,4 @@ Register User
     Fill Registration Form
     Submit Registration Form
     Verificationreg
+    Close Browser

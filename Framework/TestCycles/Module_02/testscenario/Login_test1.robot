@@ -11,3 +11,4 @@ LoginTest
         Click the submit Button
 LoginVerf
     ExcepVerificationlog
+    Close Browser

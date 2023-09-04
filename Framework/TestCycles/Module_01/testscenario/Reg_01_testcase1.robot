@@ -8,3 +8,4 @@ Register User
     Open Registration Page
     Fill Registration Form
     Submit Registration Form
+    Close Browser
