@@ -9,8 +9,6 @@ The project follows a structured organization to maintain clarity and reusabilit
 ### Root Folder
 
 - `README.md`: This file, providing an overview of the project.
-- `requirements.txt`: Lists the necessary dependencies for running the automation scripts.
-
 ### Page Objects
 
 The `Page Objects` folder contains files that represent the web pages under automation.
